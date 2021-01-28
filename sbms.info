@@ -1,0 +1,5 @@
+name = Simple Backdrop Module Scafold
+description = Rename the module's name and description to your liking.
+package = Other
+version = BACKDROP_VERSION
+backdrop = 1.x
