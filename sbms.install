@@ -1,0 +1,40 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall functions for the smbs module.
+ */
+ 
+/**
+ * Implements hook_update_N().
+ */
+function sbms_update_1000() {
+  // Secure varaible value from D7's database.
+  $config = config('sbms.settings');
+  $config->set('sbms_title', update_variable_get('sbms_title', 'Access denied'));
+  $config->save();
+  // Delete the variable from DB.
+  update_variable_del('sbms_title');
+}
+
+/**
+ * Implements hook_install().
+ */
+function sbms_install() {
+  // Add new settings into the system.core configuration file.
+  $config = config('system.core');
+  $config->set('site_403', 'customerror/403');
+  $config->save();
+}
+
+/**
+* Implements hook_uninstall().
+*/
+function sbms_uninstall() {
+  // Clean-up the system configuration.
+  $config = config('system.core');
+  $config->clear('site_403');
+  $config->save();
+  // Finally delete it's own configuration file.
+  config('sbms.settings')->delete();
+}
