@@ -1,5 +1,4 @@
-The Name of My Project
-======================
+# The Name of My Project
 
 Foo project enables you to do bar. The first paragraph of this file should be
 kept short as it will be used as the project summary on backdropcms.org. Aim for
@@ -14,16 +13,14 @@ getting started. More detailed documentation should be moved to a GitHub wiki
 page: https://github.com/backdrop-contrib/setup/wiki/Documentation.
 
 
-Requirements
-------------
+## Requirements
 
 This module requires that the following modules are also enabled:
 
  * [Bar](https://github.com/backdrop-contrib/bar)
  * [Baz](https://github.com/backdrop-contrib/baz)
 
-Installation
-------------
+## Installation
 
 - Install this module using the official Backdrop CMS instructions at
   https://backdropcms.org/guide/modules.
@@ -33,33 +30,28 @@ Installation
 
 - Any additional steps.
 
-Documentation
--------------
+## Documentation
 
 Additional documentation is located in the Wiki:
 https://github.com/backdrop-contrib/foo-project/wiki/Documentation.
 
-Issues
-------
+## Issues
 
 Bugs and Feature requests should be reported in the Issue Queue:
 https://github.com/backdrop-contrib/foo-project/issues.
 
-Current Maintainers
--------------------
+## Current Maintainers
 
 - [Alan Mels](https://github.com/alanmels).
 - Seeking additional maintainers.
 
-Credits
--------
+## Credits
 
 - Ported to Backdrop CMS by [Alan Mels](https://github.com/alanmels).
 - Originally written for Drupal by [Taylor Young](https://github.com/username).
 - Sponsored by [AltaGrade](https://www.altagrade.com)
 
-License
--------
+## License
 
 This project is GPL v2 software. 
 See the LICENSE.txt file in this directory for complete text.
