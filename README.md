@@ -35,6 +35,20 @@ This module requires that the following modules are also enabled:
 Additional documentation is located in the Wiki:
 https://github.com/backdrop-contrib/foo-project/wiki/Documentation.
 
+
+## FAQ
+
+Q: Question 1.\
+A: Answer 1.
+
+Q: Question 2.\
+A: Answer 2.
+
+Q: I want to implement a custom feature for the module/extend the module's functionality.\
+A: Please contact [AltaGrade](https://www.altagrade.com) for customizations of
+   this module as well as Backdrop consulting, installation, development, and customizations.
+   
+
 ## Issues
 
 Bugs and Feature requests should be reported in the Issue Queue:
@@ -48,7 +62,7 @@ https://github.com/backdrop-contrib/foo-project/issues.
 ## Credits
 
 - Ported to Backdrop CMS by [Alan Mels](https://github.com/alanmels).
-- Originally written for Drupal by [Taylor Young](https://github.com/username).
+- Originally written for Drupal by [User Name](https://github.com/username).
 - Sponsored by [AltaGrade](https://www.altagrade.com)
 
 ## License
