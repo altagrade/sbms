@@ -1,8 +1,9 @@
+# Per https://docs.backdropcms.org/creating-modules
 name = Simple Backdrop Module Scaffold
 description = Rename the module's name and description to your liking.
 backdrop = 1.x
+type = module
 # Optional
-version = BACKDROP_VERSION
 package = Other
 tags[] = Development
 tags[] = Layouts
